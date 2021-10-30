@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!-- Main body division -->
+    <div class="mainbody">
+        <!-- signup form division -->
+        <div id='form'>
+            <!-- Label for form -->
+            <h2>Signup<br> It's fast and easy</h2>
+            <!-- form content -->
+            <form>
+                <input id='textbox' type="email" placeholder="E-mail, or Phone number" required />
+                <br><br>
+                <input id='name' placeholder="First name" required/>
+                <input id='name' placeholder="Last name" required/>
+                <br><br>
+                <input id='textbox' placeholder="username" required/>
+                <br><br>
+                <input id='textbox' type='password' placeholder="password" required/>
+                <br><br>
+                <span style="font-size: 30px; color:rgb(10, 10, 10)">Gender</span><br><br>
+                <input type='radio' name='Gender' id="gender"/>Male
+                <input type='radio' name='Gender' id="gender"/>Female
+                <input type='radio' name='Gender' id="gender"/>Others
+                <br><br>
+                <span style="text-align: left;">Date of birth</span>
+                <br>
+                <!-- Date of birth -->
+                <input id='textbox' type="date" />
+                <br><br>
+                <!-- button for reset and signup -->
+                <input id='action' type="reset" value='Reset' />
+                <button id='action'>Sign up</button>
+            </form>
+            <br><br>
+            ------OR------
+            <br><br>
+            <!-- Redirect to login page -->
+            <span id='login'>
+                Already have a account <a href="index.html" style="text-decoration: none;">login</a>.
+            </span>
+        </div>
+    </div>
+    
+</body>
+</html>
